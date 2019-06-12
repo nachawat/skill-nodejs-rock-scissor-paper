@@ -1,0 +1,9 @@
+{
+  "consideredIntents": [],
+  "selectedIntent": {
+    "confirmationStatus": "NONE",
+    "name": "AMAZON.StartOverIntent",
+    "slots": {}
+  },
+  "sessionEnded": false
+}

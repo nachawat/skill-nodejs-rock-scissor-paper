@@ -1,0 +1,360 @@
+{
+  "id": "9526db2f-e466-498b-925d-dc04e0f6607a",
+  "status": "SUCCESSFUL",
+  "result": {
+    "validations": [
+      {
+        "locale": "fr-FR",
+        "title": "Not enough example phrases provided",
+        "description": "[fr-FR] Required: Provide at least 1 example phrase",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Too many Example Phrases provided",
+        "description": "Please limit your entry to a maximum of 3 example phrases.",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Example Phrase has duplicate phrases",
+        "description": "[fr-FR] Your example phrases must not be duplicates. Please provide unique entries.",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Example Phrase too short",
+        "description": "Your example phrase does not meet the minimum character limit of 2 characters.",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Example Phrase exceeds maximum length",
+        "description": "Your example phrase has exceeded the maximum character limit of 200 characters.",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Example Phrase contains special characters",
+        "description": "Example phrases can only contain apostrophes, quotation marks, questions marks, periods, exclamation points and commas.",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Example Phrase cannot be blank",
+        "description": "[fr-FR] The first example phrase may not be left empty.",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Example Phrase too short",
+        "description": "Your example phrase does not meet the minimum character limit of 2 characters.",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Example Phrase exceeds maximum length",
+        "description": "Your example phrase has exceeded the maximum character limit of 200 characters.",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Example Phrase contains special characters",
+        "description": "Example phrases can only contain apostrophes, quotation marks, questions marks, periods, exclamation points and commas.",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The login page provided for users to link their account with the skill should use the secure HTTPS protocol on a web browser.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The login page provided for users to link their account with the skill should be accessible via a web browser.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Future versions of the Alexa Skills Kit may add new properties to the JSON request and response formats, while maintaining backward compatibility for the existing properties. When we invoke the skill with additional parameters, the skill is rejecting it when we expect this to be accepted. Your code must be resilient to these types of changes. For example, your code for de-serializing a JSON request must not break when it encounters a new, unknown property. Please refer to our <a href=\"https://developer.amazon.com/docs/custom-skills/request-and-response-json-reference.html\">documentation</a> for more information.",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "All audio contents delivered by the skill must be audible at an acceptable volume and remain consistent throughout the playback experience. Please make sure loudness of the audio content played by the skill is neither lower than -19dbLUFS nor higher than -9dbLUFS and remains consistent while playing for several minutes. Please refer to <a href = \"https://developer.amazon.com/docs/custom-skills/functional-testing-for-a-custom-skill.html#cert-audio-playback\">Functional-testing-for-a-custom-skill</a> for more information.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "All audio contents delivered by the skill should be audible at an acceptable volume and remain consistent throughout the playback experience. Please make sure loudness of the audio content played by the skill is between -19dbLUFS and -9dbLUFS, and remains consistently within this range while playing for several minutes. Please refer to <a href = \"https://developer.amazon.com/docs/flashbriefing/flash-briefing-skill-api-feed-reference.html#cert-audio-content\">Flash Briefing API feed reference</a> for more information.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "All audio contents delivered by the skill should consistently be audible and at an acceptable volume throughout the playback experience. Please make sure that the loudness of the audio playback for all audio contents at true-peak does not exceed -2BFS. Please refer to <a href = \"https://developer.amazon.com/docs/flashbriefing/flash-briefing-skill-api-feed-reference.html#cert-audio-content\">Flash Briefing API feed reference</a> for more information.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The skill's audio content URL(s) are not accessible.<br/> Please ensure the audio content URL(s) provided in the skill are accessible at all times. The following URL(s) do not connect and could not stream content.<br>   <span style=\"font-weight: bold;\">Documentation Help:</span><br> Feed Audio Content Requirements: <a href=\"https://developer.amazon.com/docs/flashbriefing/flash-briefing-skill-api-feed-reference.html#cert-audio-content\">Click here</a>",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The skill's audio content URL(s) are not accessible.<br/> Please ensure the audio content URL(s) provided in the skill are accessible at all times.  <span style=\"font-weight: bold;\">Documentation Help:</span><br> Custom Audio Content Requirements: <a href=\"https://developer.amazon.com/docs/custom-skills/audioplayer-interface-reference.html#play-params\">Click here</a>",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "All audio contents delivered by the skill should consistently be audible and at an acceptable volume throughout the playback experience. Please make sure that the loudness of the audio playback for all audio contents does not exceed -2dbFS at true-peak. Please refer to <a href = \"https://developer.amazon.com/docs/custom-skills/functional-testing-for-a-custom-skill.html#cert-audio-playback\">Functional-testing-for-a-custom-skill</a> for more information.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Your skill must respond appropriately to the common utterances for canceling actions (such as \"stop\", \"cancel\", \"never mind\" and others). In most cases, this intent should just exit the skill, but you can map it to alternate functionality if it makes sense for your particular skill. Please revise your skill to handle common cancel utterances. Please refer to <a href = \"https://developer.amazon.com/docs/custom-skills/voice-interface-and-user-experience-testing-for-a-custom-skill.html#cert-stop-and-cancel\">User experience-testing-for-a-custom-skill</a> for more information.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "This skill implements the Alexa CanFulfillIntentRequest interface, but the CanFulfillIntentRequest interface call’s response is <b>blank</b> or <b>not in the defined structure.</b> Please implement the CanFulfillIntentRequest interface as outlined in the our documentation. The skill should respond properly to requests without a UserId present, without session information present, and should respond to a CanFulfillIntentRequest call for the skill’s intents included within the interaction model. More information about CanFulfillIntentRequest can be found in our documentation. Please implement the CanHandleIntentRequest intterface as outlined in our <a href=\"https://developer.amazon.com/docs/custom-skills/implement-canfulfillintentrequest-for-name-free-interaction.html#prepare-and-test-your-skill-for-certification\">documentation</a>. Opting out of the Alexa CanFulfillIntentRequest interface can also resolve this issue.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Code references are displayed in the home cards for your skill. Please remove any code references to make the content user friendly\r\nPlease refer to our <a href=\"https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-functional-testing#home-cards \">documentation</a> for more information.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Your skill appears to be a duplicate of an Amazon sample skill. Duplicates of Amazon sample skills cannot be submitted for certification.\nLearn more about how to submit your skill in our <a href=\"https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/getting-started-guide\">Getting started guide</a> or check out <a href=\"https://developer.amazon.com/blogs/post/Tx33L8B84PQ17FB/An-Introduction-to-the-Alexa-Skills-Kit-ASK\">An introduction to the Alexa Skills Kit</a> on our blog.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "\t\nThe skill end-point is not validating the signatures for incoming requests and is accepting requests with an empty signature URL. Please make sure that your signature validation is correct. To reject an invalid request with an invalid signature or certificate, the skill should respond with HTTP status code 400 (Bad Request) in the response. Please refer to our <a href=\"https://developer.amazon.com/docs/custom-skills/host-a-custom-skill-as-a-web-service.html#cert-verify-signature-certificate-url\">documentation</a> on how to build your Alexa Skill as a web service and validate requests and signatures.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The skill does not close the session or respond appropriately when users say \"exit\". Instead, the skill returns an error response. Please make sure the skill does not return errors when receiving SessionEndedRequests sent by Alexa.<br><span style=\"font-weight: bold;\">Documentation Help:</span><br>Understanding handling requests: <a href=\"https://developer.amazon.com/docs/custom-skills/handle-requests-sent-by-alexa.html\">Click here</a>",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "When testing your flash briefing skill, we found feed(s) with content that has not been updated within the past 7 days. Please make sure your skill has feeds that are updated regularly and are within 7 days. The skill's feeds must contain content that has been updated within the specified \"Content update frequency\" selected while configuring the skill. Please refer to our <a href=\"https://developer.amazon.com/docs/flashbriefing/flash-briefing-skill-certification-checklist.html#cert-functional-tests\">documentation</a> for more information.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The skill's feed content should be in the language that is relevant for the country where the skill is published. Please ensure that all feeds for the skill are in a language relevant for the country where the skill is published.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The help prompt must end with a question for users or prompt the user to speak and leave the session open to receive a response.\nPlease refer to test case 4.12 from our <a href=\"https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-voice-interface-and-user-experience-testing#providing-help\">Submission Checklist</a> for guidance on the help intent.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The skill end-point is not validating the signatures for incoming requests and is accepting requests with an incorrect certificate URL. Please make sure that your signature validation is correct. To reject an invalid request with an invalid signature or certificate, the skill should respond with HTTP status code 400 (Bad Request) in the response. Please refer to our <a href=\"https://developer.amazon.com/docs/custom-skills/host-a-custom-skill-as-a-web-service.html#cert-verify-signature-certificate-url\">documentation</a> on how to build your Alexa Skill as a web service and validate requests and signatures.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The skill end-point is not validating the signatures for incoming requests and is accepting requests with an invalid signature URL specified. Please make sure that your signature validation is correct. To reject an invalid request with an invalid signature or certificate, the skill should respond with HTTP status code 400 (Bad Request) in the response. Please refer to our <a href=\"https://developer.amazon.com/docs/custom-skills/host-a-custom-skill-as-a-web-service.html#checking-the-signature-of-the-request\">documentation</a> on how to build your Alexa Skill as a web service and validate requests and signatures.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Invocation name must not contain any of the Alexa skill launch phrases. Launch phrase examples include “launch”, “ask”, “tell”, “load”, and “begin”. Please make necessary changes and ensure the new name is accurately represented in the skill’s example phrases and also in the skill description and skill responses (if present).\nPlease refer to <a href=\"https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/choosing-the-invocation-name-for-an-alexa-skill#invocation-name-requirements\">Invocation name requirements</a> and also see <a href=\"https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/supported-phrases-to-begin-a-conversation\">Understanding how users invoke custom skills</a> for a complete list of skill launch phrases.",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The skill does not meet invocation name requirement: Invocation name must not contain the wake words “Alexa”, “Amazon”, “Echo”, or the words “skill” or “app”. Please revise the name so that it is accurately represented in the skill’s example phrases, skill description, and skill responses (if present).\nPlease refer to <a href=\"https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/choosing-the-invocation-name-for-an-alexa-skill#invocation-name-requirements\">Invocation name requirements</a> for more details.",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The skill does not respond to one or more launch requests from Alexa. Please note that the skill should handle all launch requests from Alexa gracefully without an error response from the endpoint.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "URL(s) referenced by the skill’s description are returning an error when we attempt to open them in a browser.  Please make sure any URL links provided by the skill are functioning properly and displayed in the same language as selected by the user for their account.\nPlease refer to item #3 from test case 3.2 of our Submission Checklist\nhttps://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-functional-testing#skill-description",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Two or more intents in your skill include the same sample utterance(s).  To ensure that user requests are routed to the proper intent, please make sure each of the skill’s intents has its own unique sample utterances.\nPlease refer to our <a href=\"https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/defining-the-voice-interface\">documentation</a> for more information on creating sample utterances for your skill.",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Each slot type should be used only once within a sample utterance. If you would like to use the same slot type more than once, you can build this in by reusing that slot type within multiple named slots.\nPlease refer to our <a href=\"https://developer.amazon.com/appsandservices/solutions/alexa/alexa-skills-kit/docs/defining-the-voice-interface#The%20Speech%20Input%20Data\">documentation</a> for more details.",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "This skill uses an endpoint that Amazon provides with a Quick Start Template for prototyping and testing purposes only. Please create a unique skill endpoint for this skill, rather than providing a default template endpoint. Please refer to our <a href=\"https://developer.amazon.com/alexa-skills-kit/start\">documentation</a> for more details on Quick Start Templates.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The skill end-point is not validating the signatures for incoming requests and is accepting requests when no signature URL headers are specified. Please make sure that your signature validation is correct. To reject an invalid request with an invalid signature or certificate, the skill should respond with HTTP status code 400 (Bad Request) in the response. Please refer to our <a href=\"https://developer.amazon.com/docs/custom-skills/host-a-custom-skill-as-a-web-service.html#cert-verify-signature-certificate-url\">documentation</a> on how to build your Alexa Skill as a web service and validate requests and signatures.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The Privacy Policy URL provided for your skill is not accessible via a web browser.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The sample utterances provided for the skill’s intents should be in the language chosen in the interaction model. One or more of the sample utterances provided in the intent schema are not in the language of the interaction model.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The skill responds to users with an empty speech prompt when the skill session is open. Please note that when the skill session is open, the skill should not return empty TTS or silent SSML responses for any supported intent(s) within the skill.",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The skill responds to users with an empty speech reprompt when the skill session is open. Please note that when the skill session is open, the skill should not return empty text or silent ssml response for any supported intent(s) within the skill.",
+        "status": "SUCCESSFUL",
+        "importance": "REQUIRED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Your skill must respond appropriately to the common utterances for stopping actions (such as \"stop\", \"cancel\", \"never mind\" and others). In most cases, this intent should just exit the skill, but you can map it to alternate functionality if it makes sense for your particular skill. Please revise your skill to handle common stop utterances. Please refer to <a href = \"https://developer.amazon.com/docs/custom-skills/voice-interface-and-user-experience-testing-for-a-custom-skill.html#cert-stop-and-cancel\">User experience-testing-for-a-custom-skill</a> for more information.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The Terms of Use URL provided for your skill is not accessible via a web browser.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Your skill appears to be a test or only intended for personal use. We will not consider test skills for certification.\nLearn more about how to submit your skill in our <a href=\"https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/getting-started-guide?ref_=pe_679090_102923190\">Getting started guide</a> and also see <a href=\"https://developer.amazon.com/blogs/post/Tx33L8B84PQ17FB/An-Introduction-to-the-Alexa-Skills-Kit-ASK\">An introduction to the Alexa Skills Kit</a> on our blog.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The skill appears to be a test skill based on the testing instructions that are provided for the skill. A test skill is not relevant to all Alexa customers. Please ensure that the skill is relevant for a broad set of Alexa customers and the testing instructions are relevant to the skill's functionality.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The skill appears to be a test skill based on the skill's responses. A test skill is not relevant to all Alexa customers. Please ensure that the skill is relevant for a broad set of Alexa customers and the skill's responses are relevant to the skill's functionality.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The skill's TTS response should be presented in a language supported by Alexa and the language should match the locale for which the skill is created. If the skill supports multiple languages, then the TTS response for each language of the skill has to be presented in the relevant language.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The skill is using an invalid certificate URL chain. Please update your certificate to fix the issue. Please refer to our <a href=\"https://developer.amazon.com/docs/custom-skills/host-a-custom-skill-as-a-web-service.html#cert-verify-signature-certificate-url\">documentation</a> on how to build your Alexa Skill as a web service and validate requests and signatures.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The skill is using an expired certificate URL. Please update your certificate to fix the issue. Please refer to our <a href=\"https://developer.amazon.com/docs/custom-skills/host-a-custom-skill-as-a-web-service.html#cert-verify-signature-certificate-url\">documentation</a> on how to build your Alexa Skill as a web service and validate requests and signatures.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "An unexpected response occurred when invoking the AMAZON.NextIntent. When the audio playback is played, the skill should support and gracefully handle requests to the Amazon built-in intents. For more information on the AMAZON.NextIntent, please refer <a href=\"https://developer.amazon.com/docs/custom-skills/functional-testing-for-a-custom-skill.html#cert-audio-playback\">documentation</a>.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "An unexpected response occurred when invoking the AMAZON.PreviousIntent. When the audio playback is played, the skill should support and gracefully handle requests to the Amazon built-in intents. For more information on the AMAZON.PreviousIntent, please refer <a href=\"https://developer.amazon.com/docs/custom-skills/functional-testing-for-a-custom-skill.html#cert-audio-playback\">documentation</a>.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "An unexpected response occurred when invoking the AMAZON.RepeatIntent. When the audio playback is played, the skill should support and gracefully handle requests to the Amazon built-in intents. For more information on the AMAZON.RepeatIntent, please refer <a href=\"https://developer.amazon.com/docs/custom-skills/functional-testing-for-a-custom-skill.html#cert-audio-playback\">documentation</a>.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The audio playback within the skill does not resume playing as expected when invoking the AMAZON.ResumeIntent.  Please make sure the skill responds properly to user “resume” requests without error.\r\n\r\nPlease refer to test case 3.5 of the <a href=\"https://developer.amazon.com/docs/custom-skills/functional-testing-for-a-custom-skill.html#cert-audio-playback\">Submission Checklist</a> for guidance on Audio Playback implementation.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The skill end-point is not accepting valid signed requests. Please make sure that your signature URL validation is correct. Please refer to our <a href=\"https://developer.amazon.com/docs/custom-skills/host-a-custom-skill-as-a-web-service.html#cert-verify-signature-certificate-url\">documentation</a> on how to build your Alexa Skill as a web service and validate requests and signatures.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "An unexpected response occurred when invoking the AMAZON.StartOverIntent. When the audio playback is played, the skill should support and gracefully handle requests to the Amazon built-in intents. For more information on the AMAZON.StartOverIntent, please refer <a href=\"https://developer.amazon.com/docs/custom-skills/functional-testing-for-a-custom-skill.html#cert-audio-playback\">documentation</a>.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "The audio playback within the skill does not stop playing as expected when invoking the AMAZON.PauseIntent.  Please make sure all audio playback stops upon requesting “pause” without error during audio playback.\r\n\r\nPlease refer to test case 3.5 of the <a href=\"https://developer.amazon.com/docs/custom-skills/functional-testing-for-a-custom-skill.html#cert-audio-playback\">Submission Checklist</a> for guidance on Audio Playback implementation.",
+        "status": "SUCCESSFUL",
+        "importance": "RECOMMENDED"
+      }
+    ]
+  }
+}

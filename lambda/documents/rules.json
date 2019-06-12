@@ -1,0 +1,32 @@
+{
+    "type": "APL",
+    "version": "1.0",
+    "theme": "dark",
+    "import": [],
+    "resources": [],
+    "styles": {},
+    "layouts": {},
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "items": [
+            {
+                "type": "Frame",
+                "width": "100vw",
+                "height": "100vh",
+                "backgroundColor": "lightblue",
+                "items": [
+                    {
+                        "type": "Image",
+                        "source": "${payload.templateData.image}",
+                        "width": "95vw",
+                        "height": "100vh",
+                        "paddingTop": "5vh",
+                        "paddingLeft": "10vh"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "templateData": {
+        "header": {
+            "title": "Pierre, Feuille, Ciseaux, Spock, Lézard",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Pierre_ciseaux_feuille_l%C3%A9zard_spock.svg/1024px-Pierre_ciseaux_feuille_l%C3%A9zard_spock.svg.png"
+        },
+        "alexa": {
+            "text": "Alexa",
+            "score": "2",
+            "image": "http://chittagongit.com/images/rock-paper-scissors-icon/rock-paper-scissors-icon-5.jpg",
+            "background": "#903232"
+        },
+        "user": {
+            "text": "Vous",
+            "score": "4",
+            "image": "http://chittagongit.com/images/rock-paper-scissors-icon/rock-paper-scissors-icon-6.jpg",
+            "background": "#7ebd7e"
+        }
+    }
+}

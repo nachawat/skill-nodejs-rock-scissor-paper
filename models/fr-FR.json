@@ -1,0 +1,124 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "pierre feuille ciseaux",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GameAction",
+          "slots": [
+            {
+              "name": "action",
+              "type": "ListOfActions"
+            }
+          ],
+          "samples": [
+            "que dis-tu de {action}",
+            "je joue {action}",
+            "{action}"
+          ]
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": [
+            "recommencer",
+            "commencer",
+            "jouer",
+            "rejouer",
+            "lancer",
+            "démarrer",
+            "recommencer au début",
+            "je veux recommencer",
+            "je veux repartir à zéro",
+            "je veux recommencer depuis le début",
+            "je voudrais recommencer",
+            "je voudrais repartir au début",
+            "commence un jeu",
+            "commence une partie",
+            "commence un quiz",
+            "commence une nouvelle partie",
+            "commence un nouveau jeu",
+            "commence un nouveau quiz",
+            "commencer un jeu",
+            "commencer une partie",
+            "commencer une nouvelle partie",
+            "commencer un nouveau jeu",
+            "commencer un nouveau quizz",
+            "un nouveau jeu",
+            "une nouvelle partie",
+            "un nouveau quiz",
+            "je veux jouer",
+            "lance un nouveau jeu",
+            "lance une nouvelle partie",
+            "lance un nouveau quiz",
+            "lancer un nouveau jeu",
+            "lancer une nouvelle partie",
+            "lancer un nouveau quiz",
+            "démarres un nouveau jeu",
+            "démarres une nouvelle partie",
+            "démarres un nouveau quiz",
+            "démarrer un nouveau jeu",
+            "démarrer une nouvelle partie",
+            "démarrer un nouveau quiz",
+            "un jeu",
+            "un partie",
+            "un quizz",
+            "rejoue"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "name": "ListOfActions",
+          "values": [
+            {
+              "id": "5",
+              "name": {
+                "value": "lézard"
+              }
+            },
+            {
+              "id": "4",
+              "name": {
+                "value": "spock"
+              }
+            },
+            {
+              "id": "3",
+              "name": {
+                "value": "ciseaux"
+              }
+            },
+            {
+              "id": "2",
+              "name": {
+                "value": "feuille"
+              }
+            },
+            {
+              "id": "1",
+              "name": {
+                "value": "pierre"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

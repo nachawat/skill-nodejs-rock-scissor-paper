@@ -1,0 +1,96 @@
+✓ Simulation created for simulation id: 684dfe25-70c5-47ba-a4f9-ed3b2a65c84d
+[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G[2K{
+  "id": "684dfe25-70c5-47ba-a4f9-ed3b2a65c84d",
+  "status": "SUCCESSFUL",
+  "result": {
+    "alexaExecutionInfo": {
+      "alexaResponses": [
+        {
+          "type": "Speech",
+          "content": {
+            "caption": "Ici, les règles classiques du jeu Pierre Feuille Ciseaux s'appliquent, mais il faut ajouter que \n             le lézard mange le papier, empoisonne Spock, est écrasé par la pierre et est décapité par les ciseaux. \n             Spock vaporise la pierre, casse les ciseaux, et est discrédité par le papier.\n             J'ai fait mon choix et vous, Que jouez-vous ?"
+          }
+        }
+      ],
+      "consideredIntents": [
+        {
+          "name": "AMAZON.HelpIntent",
+          "confirmationStatus": "NONE",
+          "slots": {}
+        }
+      ]
+    },
+    "skillExecutionInfo": {
+      "invocations": [
+        {
+          "invocationRequest": {
+            "endpoint": "arn:aws:lambda:us-east-1:252154128336:function:10d8ff20-b70d-498f-81eb-ccdf5f0d8db4:Release_0",
+            "body": {
+              "version": "1.0",
+              "session": {
+                "new": false,
+                "sessionId": "amzn1.echo-api.session.5b17b65f-0e2e-442f-ac28-739ab84021d6",
+                "application": {
+                  "applicationId": "amzn1.ask.skill.10d8ff20-b70d-498f-81eb-ccdf5f0d8db4"
+                },
+                "user": {
+                  "userId": "amzn1.ask.account.AGBHRXMUROCBO2EIWV65TO5IV4KPLUMDKP4MSN42FIMUTET4E4DT6E6WMT4AZJ6ZZ3VIPE5WPMVUPZ7PPOLXTFZZ7KB777B4YLPS2IACI6JRUZPFVYEOJL7C6C66NKDER374QXMKIRDKMNHCU3PCFDI3BT54BUOK733TBLDMJXRGHRC5OOYOR3KMZMAYMQZBRK6Y4NAD3A23SAI"
+                }
+              },
+              "context": {
+                "System": {
+                  "application": {
+                    "applicationId": "amzn1.ask.skill.10d8ff20-b70d-498f-81eb-ccdf5f0d8db4"
+                  },
+                  "user": {
+                    "userId": "amzn1.ask.account.AGBHRXMUROCBO2EIWV65TO5IV4KPLUMDKP4MSN42FIMUTET4E4DT6E6WMT4AZJ6ZZ3VIPE5WPMVUPZ7PPOLXTFZZ7KB777B4YLPS2IACI6JRUZPFVYEOJL7C6C66NKDER374QXMKIRDKMNHCU3PCFDI3BT54BUOK733TBLDMJXRGHRC5OOYOR3KMZMAYMQZBRK6Y4NAD3A23SAI"
+                  },
+                  "device": {
+                    "deviceId": "amzn1.ask.device.AFRXN7TLIF3GNMJEISUSQUHNJ7O27AE3KZWHTDLZ7RPIROWXVSETNHJ4SBM2HCLYAMKRVX5TSJB5THIC4WMP25GPCF3L5FGR4OFZ6Q6N7JNWYEZC4RFJ7NCVNB7HQXD5XRFXFGJ5DO5XWPZDP6ZAWJKRBBUMJDWB6SV2S4EDT47QM7TZ3LJIW",
+                    "supportedInterfaces": {}
+                  },
+                  "apiEndpoint": "https://api.eu.amazonalexa.com",
+                  "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjEwZDhmZjIwLWI3MGQtNDk4Zi04MWViLWNjZGY1ZjBkOGRiNCIsImV4cCI6MTU2MDMwMTE4NiwiaWF0IjoxNTYwMzAwODg2LCJuYmYiOjE1NjAzMDA4ODYsInByaXZhdGVDbGFpbXMiOnsiY29udGV4dCI6IkFBQUFBQUFBQVFEYUs2b3BsSUNTaHlKaDl4MEQ2bG9lS3dFQUFBQUFBQUJHUTMxdno2cEFnTkl2QnFBL3RpNlZhcXpSRmltdVJuQU04QXUzNTVldGxuQzN1SlBGMkt6QkJVVTRsWmtaZVB0ckR6N1FMeDZIYW00SVJtV1BLR3dDMWRDVWlLeEZKQTBjWkVlcW5uSThqZFZkR1Btdm1kSytnbmpxZnNodXVjeWplYWVSMjNHdll4U2hKcjVSSFFYbjJaU09HK1F1LzdySzFrTWErajR1djAvQnZWb2hGTFdBUGpON0Y0RVFaMURRS3c2OGNlTE9jTkdVNlZFMUJwNUxRc3FIOCsrbENuSGpOWFczNXcxM0RTdGtjS1Bma00vbndPdHhvUGhhVHlBT3RTZVFISVhpS0JXMG9vWGJzMElDemxndDJkaENteHZaWTMyYzJNTnRSVElzMHdHQlhldDl4aXRFZVV2MHpsRVlZeERPS2dUSTBSZHF3SDhiZ20zcEJwbm1FdWxTVmVqSDJocFp6MSsxS0RObzBqY2dpMHl6QzhESUx1cWMySWRUREZJZWtyVU5lUEZTMHc9PSIsImNvbnNlbnRUb2tlbiI6bnVsbCwiZGV2aWNlSWQiOiJhbXpuMS5hc2suZGV2aWNlLkFGUlhON1RMSUYzR05NSkVJU1VTUVVITko3TzI3QUUzS1pXSFRETFo3UlBJUk9XWFZTRVROSEo0U0JNMkhDTFlBTUtSVlg1VFNKQjVUSElDNFdNUDI1R1BDRjNMNUZHUjRPRlo2UTZON0pOV1lFWkM0UkZKN05DVk5CN0hRWEQ1WFJGWEZHSjVETzVYV1BaRFA2WkFXSktSQkJVTUpEV0I2U1YyUzRFRFQ0N1FNN1RaM0xKSVciLCJ1c2VySWQiOiJhbXpuMS5hc2suYWNjb3VudC5BR0JIUlhNVVJPQ0JPMkVJV1Y2NVRPNUlWNEtQTFVNREtQNE1TTjQyRklNVVRFVDRFNERUNkU2V01UNEFaSjZaWjNWSVBFNVdQTVZVUFo3UFBPTFhURlpaN0tCNzc3QjRZTFBTMklBQ0k2SlJVWlBGVllFT0pMN0M2QzY2TktERVIzNzRRWE1LSVJES01OSENVM1BDRkRJM0JUNTRCVU9LNzMzVEJMRE1KWFJHSFJDNU9PWU9SM0tNWk1BWU1RWkJSSzZZNE5BRDNBMjNTQUkifX0.F0VCZmtQIyrhMxvQ5n88MMsJT4SmZxxLDo0j_lRrKMqkGteS9thwmoZrSRn1TjYgPGlH1v8XzMp7Zt-maA_-dAY3ZTQN1hajQ38yubK6aRnEYH9HaLU23DUajyvbbKQAC6PUFWNrL6PZKCai0u5kn7RQRb5woAF4TDkVbUHhzU6vF53a4eyxo21VP8WqsvoBHv_Ka_-U60CcqGQAySMHygDi0mJHf0sG4SdafIvOWU1QHejz_fNcnHj01HbrYih_P5OR4l9bhDZKguQ31syWEg6JfBz2jnPAANKmDZJRkpImI1Y37_jfkquCkmkKZdPiftdxIMgtNvASBkDuniMJDw"
+                }
+              },
+              "request": {
+                "type": "IntentRequest",
+                "requestId": "amzn1.echo-api.request.c16ba152-6bdc-4c16-ad3e-74feecfa479e",
+                "timestamp": "2019-06-12T00:54:46Z",
+                "locale": "fr-FR",
+                "intent": {
+                  "name": "AMAZON.HelpIntent",
+                  "confirmationStatus": "NONE"
+                }
+              }
+            }
+          },
+          "invocationResponse": {
+            "body": {
+              "version": "1.0",
+              "response": {
+                "outputSpeech": {
+                  "type": "SSML",
+                  "ssml": "<speak>Ici, les règles classiques du jeu Pierre Feuille Ciseaux s'appliquent, mais il faut ajouter que \n            <break time=\"500ms\"/> le lézard mange le papier, empoisonne Spock, est écrasé par la pierre et est décapité par les ciseaux. \n            <break time=\"500ms\"/> Spock vaporise la pierre, casse les ciseaux, et est discrédité par le papier.\n            <break time=\"500ms\"/> J'ai fait mon choix et vous, Que jouez-vous ?</speak>"
+                },
+                "reprompt": {
+                  "outputSpeech": {
+                    "type": "SSML",
+                    "ssml": "<speak>J'ai fait mon choix et vous, Que jouez-vous ?</speak>"
+                  }
+                },
+                "shouldEndSession": false,
+                "type": "_DEFAULT_RESPONSE"
+              },
+              "sessionAttributes": {},
+              "userAgent": "ask-node/2.6.0 Node/v8.10.0"
+            }
+          },
+          "metrics": {
+            "skillExecutionTimeInMilliseconds": 384
+          }
+        }
+      ]
+    }
+  }
+}

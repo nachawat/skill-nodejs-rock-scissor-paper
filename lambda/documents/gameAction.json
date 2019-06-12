@@ -1,0 +1,128 @@
+{
+    "type": "APL",
+    "version": "1.0",
+    "theme": "dark",
+    "import": [
+        {
+            "name": "alexa-styles",
+            "version": "1.0.0"
+        },
+        {
+            "name": "alexa-layouts",
+            "version": "1.0.0"
+        }
+    ],
+    "resources": [
+        {
+            "dimensions": {
+                "myTextTopPadding": "5vh",
+                "imgWidth": "50vw",
+                "imgHeight": "50vh"
+            }
+        },
+        {
+            "when": "${@viewportProfile == @hubRoundSmall}",
+            "dimensions": {
+                "myTextTopPadding": "20vh",
+                "imgWidth": "30vw",
+                "imgHeight": "30vh"
+            }
+        },
+        {
+            "when": "${@viewportProfile == @hubLandscapeSmall}",
+            "dimensions": {
+                "imgWidth": "40vw",
+                "imgHeight": "40vh"
+            }
+        }
+    ],
+    "styles": {},
+    "layouts": {},
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "items": [
+            {
+                "type": "Container",
+                "item": [
+                    {
+                        "type": "AlexaHeader",
+                        "when": "${viewport.shape != 'round'}",
+                        "headerTitle": "${payload.templateData.header.title}",
+                        "headerAttributionImage": "${payload.templateData.header.image}",
+                        "headerBackgroundColor": "#30393c"
+                    },
+                    {
+                        "type": "Container",
+                        "direction": "row",
+                        "items": [
+                            {
+                                "type": "Frame",
+                                "backgroundColor": "${payload.templateData.alexa.background}",
+                                "items": [
+                                    {
+                                        "type": "Container",
+                                        "alignItems": "center",
+                                        "width": "50vw",
+                                        "height": "100vh",
+                                        "item": [
+                                            {
+                                                "type": "Text",
+                                                "text": "${payload.templateData.alexa.text}",
+                                                "paddingTop": "@myTextTopPadding",
+                                                "paddingBottom": "3vh"
+                                            },
+                                            {
+                                                "type": "Image",
+                                                "source": "${payload.templateData.alexa.image}",
+                                                "width": "@imgWidth",
+                                                "height": "@imgHeight"
+                                            },
+                                            {
+                                                "type": "Text",
+                                                "text": "${payload.templateData.alexa.score}",
+                                                "paddingTop": "5vh"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Frame",
+                                "backgroundColor": "${payload.templateData.user.background}",
+                                "items": [
+                                    {
+                                        "type": "Container",
+                                        "alignItems": "center",
+                                        "width": "50vw",
+                                        "height": "100vh",
+                                        "item": [
+                                            {
+                                                "type": "Text",
+                                                "text": "${payload.templateData.user.text}",
+                                                "paddingTop": "@myTextTopPadding",
+                                                "paddingBottom": "3vh"
+                                            },
+                                            {
+                                                "type": "Image",
+                                                "source": "${payload.templateData.user.image}",
+                                                "width": "@imgWidth",
+                                                "height": "@imgHeight"
+                                            },
+                                            {
+                                                "type": "Text",
+                                                "text": "${payload.templateData.user.score}",
+                                                "paddingTop": "5vh"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

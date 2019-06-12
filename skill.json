@@ -1,0 +1,52 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-custom-code-rock-scissor-paper"
+        },
+        "interfaces": [
+          {
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ]
+      }
+    },
+    "privacyAndCompliance": {
+      "locales": {
+        "fr-FR": {}
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "fr-FR": {
+          "name": "Pierre Feuille Ciseaux",
+          "summary": "Jouez à Pierre Feuille Ciseaux Spock Lézard avec Alexa",
+          "description": "Vous êtes ammateur de Pierre Feuille Ciseaux ? Vous serez fan de cette version rendue célèbre par la série The Big Bang Theory! Cette Skill est optimisée pour les écrans.",
+          "examplePhrases": [
+            "Alexa, ouvre pierre feuille ciseaux",
+            "Alexa, demande à pierre feuille ciseaux un nouveau jeu"
+          ],
+          "keywords": [
+            "pierre",
+            "feuille",
+            "ciseaux",
+            "spock",
+            "lézard",
+            "jeu"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "simply say \"Alexa, ouvre pierre feuille ciseaux\"",
+      "category": "GAMES",
+      "distributionCountries": []
+    }
+  }
+}

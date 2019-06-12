@@ -1,0 +1,91 @@
+✓ Simulation created for simulation id: 6dd83506-41f0-4760-9306-c6b77f9e2cc3
+[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G[2K{
+  "id": "6dd83506-41f0-4760-9306-c6b77f9e2cc3",
+  "status": "SUCCESSFUL",
+  "result": {
+    "alexaExecutionInfo": {
+      "alexaResponses": [
+        {
+          "type": "Speech",
+          "content": {
+            "caption": "Bievenue sur le jeu Pierre Feuille Ciseaux (version Spock). Nous avons 5 manches pour nous départager. Vous pouvez choisir entre Pierre, Feuille, Ciseaux, Lézard ou Spock pour jouer! J'ai fait mon choix et vous, Quel est votre choix ?"
+          }
+        }
+      ],
+      "consideredIntents": [
+        {
+          "name": "<LaunchRequest>"
+        }
+      ]
+    },
+    "skillExecutionInfo": {
+      "invocations": [
+        {
+          "invocationRequest": {
+            "endpoint": "arn:aws:lambda:us-east-1:252154128336:function:10d8ff20-b70d-498f-81eb-ccdf5f0d8db4:Release_0",
+            "body": {
+              "version": "1.0",
+              "session": {
+                "new": true,
+                "sessionId": "amzn1.echo-api.session.d00234b6-2194-42e5-be72-a1c30154140b",
+                "application": {
+                  "applicationId": "amzn1.ask.skill.10d8ff20-b70d-498f-81eb-ccdf5f0d8db4"
+                },
+                "user": {
+                  "userId": "amzn1.ask.account.AGBHRXMUROCBO2EIWV65TO5IV4KPLUMDKP4MSN42FIMUTET4E4DT6E6WMT4AZJ6ZZ3VIPE5WPMVUPZ7PPOLXTFZZ7KB777B4YLPS2IACI6JRUZPFVYEOJL7C6C66NKDER374QXMKIRDKMNHCU3PCFDI3BT54BUOK733TBLDMJXRGHRC5OOYOR3KMZMAYMQZBRK6Y4NAD3A23SAI"
+                }
+              },
+              "context": {
+                "System": {
+                  "application": {
+                    "applicationId": "amzn1.ask.skill.10d8ff20-b70d-498f-81eb-ccdf5f0d8db4"
+                  },
+                  "user": {
+                    "userId": "amzn1.ask.account.AGBHRXMUROCBO2EIWV65TO5IV4KPLUMDKP4MSN42FIMUTET4E4DT6E6WMT4AZJ6ZZ3VIPE5WPMVUPZ7PPOLXTFZZ7KB777B4YLPS2IACI6JRUZPFVYEOJL7C6C66NKDER374QXMKIRDKMNHCU3PCFDI3BT54BUOK733TBLDMJXRGHRC5OOYOR3KMZMAYMQZBRK6Y4NAD3A23SAI"
+                  },
+                  "device": {
+                    "deviceId": "amzn1.ask.device.AFRXN7TLIF3GNMJEISUSQUHNJ7O27AE3KZWHTDLZ7RPIROWXVSETNHJ4SBM2HCLYAMKRVX5TSJB5THIC4WMP25GPCF3L5FGR4OFZ6Q6N7JNWYEZC4RFJ7NCVNB7HQXD5XRFXFGJ5DO5XWPZDP6ZAWJKRBBUMJDWB6SV2S4EDT47QM7TZ3LJIW",
+                    "supportedInterfaces": {}
+                  },
+                  "apiEndpoint": "https://api.eu.amazonalexa.com",
+                  "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjEwZDhmZjIwLWI3MGQtNDk4Zi04MWViLWNjZGY1ZjBkOGRiNCIsImV4cCI6MTU2MDI5ODM3NSwiaWF0IjoxNTYwMjk4MDc1LCJuYmYiOjE1NjAyOTgwNzUsInByaXZhdGVDbGFpbXMiOnsiY29udGV4dCI6IkFBQUFBQUFBQVFEYUs2b3BsSUNTaHlKaDl4MEQ2bG9lS3dFQUFBQUFBQUFNOHBCbTNCVnJvUlBvUCtvV2pIdEhML2RnblYvL3hHQTFXMUxWUmxoeTFsT0RSNlAvZ3RqMWVSNmN2MTMrdzJtUlAzQWtpL3Q2Qy94dXE5TVRHYmhMUEQwbmpNQ1FCbStLRk5LTFBFTVhqZDV4WHFWMVNaanh5aU5ROE85cmFZNEpoSEgxdFAzREZJVEE2bG53ZlZpY3VKWmlxV3ZTWHNteHVLK1pNYlA0c1g4Zmg5aC81bUNGTFJXSWQxNFFpZWVsMlZQd3hCNXNSUkV2RFJFRFkrZUo4c2RCOHpuSit4eTM0RDRRNVNiQTNodWw3S2lZVGxjcWxaUkk1MnhUVVF4VnQ4WFgrM0FaRUxqWkhxRFl6c1NjdXg3RlZmTjVtVlI3OCtKT3cwVFVLNFQrTjN6dGVxNjNxRFoxRFlxQk9YRHgvUk1pdTdtMk9xR3pVR1JsaVkwM2FycWJtTmZvSk4vM25NOE5yK3JYelhrQWFLc0xqckVrSEdyTzNDemhXRzhXUFl5RkZBTFA0QzU2c1E9PSIsImNvbnNlbnRUb2tlbiI6bnVsbCwiZGV2aWNlSWQiOiJhbXpuMS5hc2suZGV2aWNlLkFGUlhON1RMSUYzR05NSkVJU1VTUVVITko3TzI3QUUzS1pXSFRETFo3UlBJUk9XWFZTRVROSEo0U0JNMkhDTFlBTUtSVlg1VFNKQjVUSElDNFdNUDI1R1BDRjNMNUZHUjRPRlo2UTZON0pOV1lFWkM0UkZKN05DVk5CN0hRWEQ1WFJGWEZHSjVETzVYV1BaRFA2WkFXSktSQkJVTUpEV0I2U1YyUzRFRFQ0N1FNN1RaM0xKSVciLCJ1c2VySWQiOiJhbXpuMS5hc2suYWNjb3VudC5BR0JIUlhNVVJPQ0JPMkVJV1Y2NVRPNUlWNEtQTFVNREtQNE1TTjQyRklNVVRFVDRFNERUNkU2V01UNEFaSjZaWjNWSVBFNVdQTVZVUFo3UFBPTFhURlpaN0tCNzc3QjRZTFBTMklBQ0k2SlJVWlBGVllFT0pMN0M2QzY2TktERVIzNzRRWE1LSVJES01OSENVM1BDRkRJM0JUNTRCVU9LNzMzVEJMRE1KWFJHSFJDNU9PWU9SM0tNWk1BWU1RWkJSSzZZNE5BRDNBMjNTQUkifX0.CM7c2RbRW2z68anExRl7W6wEboAvcUCNePvhZzoRiRrEkHklbO0dUbx9377QQggroIG6tUaD9jl3M2KLWK5UthC-q2XIccUKke4BOEoiBVxp93Gf8BQAfb2io4LeRiAZGWKN5FLPTLMt5v_F90Aa2XcA6DmMT3MCHZmNkZ-aM5eaw0gHPI5V-xg1-N_hVNBrC9vBXeUfRH228D_zm7QdwOxnNDFV1CpAbucOJEP2D4nZdGXRWINEWHBdN1Tlq44WwmrhNvTD6lKeCuMshTrwDTipG3FusqTVwcZYGUjppRKyo7EnyPUeI7f5Y8l57laSgQ5AaJpMd8kEf0J0CVljdQ"
+                }
+              },
+              "request": {
+                "type": "LaunchRequest",
+                "requestId": "amzn1.echo-api.request.91925c88-a70f-4323-b90a-8a90bed29d15",
+                "timestamp": "2019-06-12T00:07:55Z",
+                "locale": "fr-FR",
+                "shouldLinkResultBeReturned": false
+              }
+            }
+          },
+          "invocationResponse": {
+            "body": {
+              "version": "1.0",
+              "response": {
+                "outputSpeech": {
+                  "type": "SSML",
+                  "ssml": "<speak>Bievenue sur le jeu Pierre Feuille Ciseaux (version Spock). Nous avons 5 manches pour nous départager. Vous pouvez choisir entre Pierre, Feuille, Ciseaux, Lézard ou Spock pour jouer!<break time=\"500ms\"/> J'ai fait mon choix et vous, Quel est votre choix ?</speak>"
+                },
+                "reprompt": {
+                  "outputSpeech": {
+                    "type": "SSML",
+                    "ssml": "<speak>Que choisissez-vous ?</speak>"
+                  }
+                },
+                "shouldEndSession": false,
+                "type": "_DEFAULT_RESPONSE"
+              },
+              "sessionAttributes": {},
+              "userAgent": "ask-node/2.6.0 Node/v8.10.0"
+            }
+          },
+          "metrics": {
+            "skillExecutionTimeInMilliseconds": 374
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+✓ Simulation created for simulation id: 19c72f9f-f53b-4527-8c2e-15169bc7c2df
+[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G  [96m◟ [90mWaiting for the simulation response...[0m[0G  [96m◜ [90mWaiting for the simulation response...[0m[0G  [96m◠ [90mWaiting for the simulation response...[0m[0G  [96m◝ [90mWaiting for the simulation response...[0m[0G  [96m◞ [90mWaiting for the simulation response...[0m[0G  [96m◡ [90mWaiting for the simulation response...[0m[0G[2K{
+  "id": "19c72f9f-f53b-4527-8c2e-15169bc7c2df",
+  "status": "SUCCESSFUL",
+  "result": {
+    "alexaExecutionInfo": {
+      "alexaResponses": [
+        {
+          "type": "Speech",
+          "content": {
+            "caption": "Au revoir !"
+          }
+        }
+      ],
+      "consideredIntents": [
+        {
+          "name": "AMAZON.StopIntent",
+          "confirmationStatus": "NONE",
+          "slots": {}
+        }
+      ]
+    },
+    "skillExecutionInfo": {
+      "invocations": [
+        {
+          "invocationRequest": {
+            "endpoint": "arn:aws:lambda:us-east-1:252154128336:function:10d8ff20-b70d-498f-81eb-ccdf5f0d8db4:Release_0",
+            "body": {
+              "version": "1.0",
+              "session": {
+                "new": false,
+                "sessionId": "amzn1.echo-api.session.c61b37c7-6c75-473f-a1d7-9d019f547ff6",
+                "application": {
+                  "applicationId": "amzn1.ask.skill.10d8ff20-b70d-498f-81eb-ccdf5f0d8db4"
+                },
+                "user": {
+                  "userId": "amzn1.ask.account.AGBHRXMUROCBO2EIWV65TO5IV4KPLUMDKP4MSN42FIMUTET4E4DT6E6WMT4AZJ6ZZ3VIPE5WPMVUPZ7PPOLXTFZZ7KB777B4YLPS2IACI6JRUZPFVYEOJL7C6C66NKDER374QXMKIRDKMNHCU3PCFDI3BT54BUOK733TBLDMJXRGHRC5OOYOR3KMZMAYMQZBRK6Y4NAD3A23SAI"
+                }
+              },
+              "context": {
+                "System": {
+                  "application": {
+                    "applicationId": "amzn1.ask.skill.10d8ff20-b70d-498f-81eb-ccdf5f0d8db4"
+                  },
+                  "user": {
+                    "userId": "amzn1.ask.account.AGBHRXMUROCBO2EIWV65TO5IV4KPLUMDKP4MSN42FIMUTET4E4DT6E6WMT4AZJ6ZZ3VIPE5WPMVUPZ7PPOLXTFZZ7KB777B4YLPS2IACI6JRUZPFVYEOJL7C6C66NKDER374QXMKIRDKMNHCU3PCFDI3BT54BUOK733TBLDMJXRGHRC5OOYOR3KMZMAYMQZBRK6Y4NAD3A23SAI"
+                  },
+                  "device": {
+                    "deviceId": "amzn1.ask.device.AFRXN7TLIF3GNMJEISUSQUHNJ7O27AE3KZWHTDLZ7RPIROWXVSETNHJ4SBM2HCLYAMKRVX5TSJB5THIC4WMP25GPCF3L5FGR4OFZ6Q6N7JNWYEZC4RFJ7NCVNB7HQXD5XRFXFGJ5DO5XWPZDP6ZAWJKRBBUMJDWB6SV2S4EDT47QM7TZ3LJIW",
+                    "supportedInterfaces": {}
+                  },
+                  "apiEndpoint": "https://api.eu.amazonalexa.com",
+                  "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjEwZDhmZjIwLWI3MGQtNDk4Zi04MWViLWNjZGY1ZjBkOGRiNCIsImV4cCI6MTU2MDI5ODYzMywiaWF0IjoxNTYwMjk4MzMzLCJuYmYiOjE1NjAyOTgzMzMsInByaXZhdGVDbGFpbXMiOnsiY29udGV4dCI6IkFBQUFBQUFBQVFEYUs2b3BsSUNTaHlKaDl4MEQ2bG9lS3dFQUFBQUFBQUM3cFh1eHd1Rmlrb0NRREhhSG9ZNWc1MzlHUkJlTjhpblVlWFRtREljK0c4YWV0R0o1cXJhQ0t6Q0k2Sjc0UHh4S1NOTVFOeG9mNXhMSmxReHA5emlFaE5NcVhORFhIQ252MUlJSnY5M242UHE2Q0NBbUErUk9hOS9ZNGxiRFMxUXJUL2RrdVpmOHFtMUQzYkEzNXJNV1NVQ2pwS25wL2tTZnJ6TkJzM1cvNk1VT1M5N2xIZXQwMUpYNzJTUzdVRENGZ2dTd0FCM1FGK3VpQkZVMGpDdTJDNXBTc09DNHNVbGhvbENjRWRDbGZKcnRYZDdCTytxQnkvd1hhb1hyOERkRGYzUG1OakY5dDBDa01MZXZCamtka3o0QjdZdElVQjJVM0ZSa2E1YTRXdm9Od1prdnNyY0tzVnl5c3ROUUNaTm5WaVY2cGVRcVQvU1RqNUE2S01MdW9GTnA0ZlNOOFA1b0xvS2ZBNHJucFdrbE00bVRYeVRGWTI4aWlGY2pTdVMrTGcrVk9EL2hiOWR3VFE9PSIsImNvbnNlbnRUb2tlbiI6bnVsbCwiZGV2aWNlSWQiOiJhbXpuMS5hc2suZGV2aWNlLkFGUlhON1RMSUYzR05NSkVJU1VTUVVITko3TzI3QUUzS1pXSFRETFo3UlBJUk9XWFZTRVROSEo0U0JNMkhDTFlBTUtSVlg1VFNKQjVUSElDNFdNUDI1R1BDRjNMNUZHUjRPRlo2UTZON0pOV1lFWkM0UkZKN05DVk5CN0hRWEQ1WFJGWEZHSjVETzVYV1BaRFA2WkFXSktSQkJVTUpEV0I2U1YyUzRFRFQ0N1FNN1RaM0xKSVciLCJ1c2VySWQiOiJhbXpuMS5hc2suYWNjb3VudC5BR0JIUlhNVVJPQ0JPMkVJV1Y2NVRPNUlWNEtQTFVNREtQNE1TTjQyRklNVVRFVDRFNERUNkU2V01UNEFaSjZaWjNWSVBFNVdQTVZVUFo3UFBPTFhURlpaN0tCNzc3QjRZTFBTMklBQ0k2SlJVWlBGVllFT0pMN0M2QzY2TktERVIzNzRRWE1LSVJES01OSENVM1BDRkRJM0JUNTRCVU9LNzMzVEJMRE1KWFJHSFJDNU9PWU9SM0tNWk1BWU1RWkJSSzZZNE5BRDNBMjNTQUkifX0.cjFtzH5a0m3gknHLt65PlTCDtmJUAN0IuYrB326hfD2FnfTmu2yNGsBMilcHZneZ7IjDzOON94yeM9r4L4k8rfRqSAfAJ9j80lUizu7oDxXedUJne-9J8vpT0-iTrtct54ZwRAYlEgaGHNwsR1DAEwdplV4dEjliRfgzoJR0u-EasbjEjRGET6lo54uabOfpsQli7Sa18PbDGdoHltZWo-Lu76Xekf_YcdptjCv8F3R6aKenMoLkUlymS7QwwD_p8QGnscFHEsLA4WcTn8x7DDi1J5DMa_2Sq8pHstPWflZp9_0Av3rw4jwm7Y2XDohQotD4G2KYXmHPU6_CO-o2Fw"
+                }
+              },
+              "request": {
+                "type": "IntentRequest",
+                "requestId": "amzn1.echo-api.request.98663aa5-21b1-4c4c-bbc2-768c894de51f",
+                "timestamp": "2019-06-12T00:12:13Z",
+                "locale": "fr-FR",
+                "intent": {
+                  "name": "AMAZON.StopIntent",
+                  "confirmationStatus": "NONE"
+                }
+              }
+            }
+          },
+          "invocationResponse": {
+            "body": {
+              "version": "1.0",
+              "response": {
+                "outputSpeech": {
+                  "type": "SSML",
+                  "ssml": "<speak>Au revoir !</speak>"
+                },
+                "type": "_DEFAULT_RESPONSE"
+              },
+              "sessionAttributes": {},
+              "userAgent": "ask-node/2.6.0 Node/v8.10.0"
+            }
+          },
+          "metrics": {
+            "skillExecutionTimeInMilliseconds": 86
+          }
+        }
+      ]
+    }
+  }
+}
