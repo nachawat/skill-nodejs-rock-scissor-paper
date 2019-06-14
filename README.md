@@ -11,7 +11,7 @@ Chaque Skill est consistée de deux parties :
 * une partie `Front-End` : une interface vocale ou VUI qui correspond à la définition d'un modèle d'interaction.
 * une partie `Back-End` : la logique de programmation (code) où la Skill définit son comportement en réponse à l'utilisateur selon un échange de requête-réponse au format JSON entre le service Alexa et votre code.
 
-### Fonctionnalités de l'Alexa Skill Kit utilisées
+### Fonctionnalités de l'Alexa Skills Kit (ASK) utilisées
 
 * Invocation Name : nom d'appel d'une Skill Custom
 * Built-in Intents : intentions prédefinies mis à disposition par Alexa (annule, arrête, aide, oui, non, suivant, précédent, recommence, ...)
@@ -28,6 +28,10 @@ Chaque Skill est consistée de deux parties :
 * Error handler : comment gérer les exceptions
 * Interceptors : comment mutualisez du code
 * Attributs de Sessions (AttributesManager) : comment gérer les attributes au sein d'une Session de Skill
+
+### Tests Unitaires avec [Bespoken](https://read.bespoken.io/unit-testing/getting-started/)
+
+c.f description des scénarios de tests dans le fichier [./test/unit/index.test.yml](./test/unit/index.test.yml)
 
 
 ## Ressources
