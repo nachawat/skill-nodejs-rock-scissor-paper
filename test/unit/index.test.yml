@@ -1,0 +1,62 @@
+########################
+# BESPOKEN UNIT TESTS
+########################
+
+---
+configuration: # Setup des tests en français
+    locale: fr-FR
+
+--- # 3 dashes : début nouveau document YAML
+- test : Simulation Utilisateur mentionnant Spock
+- GameAction action=spock:
+    - response.outputSpeech.ssml: "Spock"
+    - response.reprompt.outputSpeech.ssml:
+        - "prochain move"
+        - "prochain choix"
+        - "manche suivante"
+    - response.shouldEndSession: false
+
+--- # 3 dashes : début nouveau document YAML
+- test: Test Storyboard n1 # description du test
+- LaunchRequest: # check des prompts et reprompts
+    - response.outputSpeech.ssml: # contient le texte
+        - "Pierre, Feuille, Ciseaux, Lézard ou Spock" 
+    - response.reprompt.outputSpeech.ssml: # contient l'une des valeurs suivante
+        - "choisissez"
+        - "choix"
+        - "jouez"
+    - response.shouldEndSession: false
+- GameAction action=pierre:
+    - response.outputSpeech.ssml: # contient le texte
+        - "pierre"
+    - response.reprompt.outputSpeech.ssml: # contient l'une des valeurs suivante
+        - "prochain move"
+        - "prochain choix"
+        - "manche suivante"
+    - response.shouldEndSession: false
+- GameAction action=superman: 
+    - response.outputSpeech.ssml: # contient le texte
+        - "Désolé, je n'ai pas compris. Vous pouvez choisir entre Pierre, Feuille, Ciseaux, Lézard ou Spock. Pouvez-vous reformuler?"
+    - response.reprompt.outputSpeech.ssml: # contient le texte
+        - "Pouvez-vous reformuler?" 
+    - response.shouldEndSession: false
+- AMAZON.HelpIntent:
+    - response.outputSpeech.ssml: # contient le texte
+        - "Ici, les règles classiques du jeu Pierre Feuille Ciseaux"
+    - response.reprompt.outputSpeech.ssml: # contient l'une des valeurs suivante
+        - "mon choix * choisissez-vous"
+        - "mon choix * choix"
+        - "mon choix * jouez-vous"
+    - response.shouldEndSession: false
+- AMAZON.StartOverIntent:
+    - response.outputSpeech.ssml: # contient le texte
+        - "Commençons une nouvelle partie."
+    - response.reprompt.outputSpeech.ssml: # contient l'une des valeurs suivante
+        - "choisissez"
+        - "choix"
+        - "jouez"
+    - response.shouldEndSession: false
+    - sessionAttributes.game.user.rounds[0] == undefined # n'existe pas
+- AMAZON.StopIntent: 
+    - response.outputSpeech.ssml: "*" # contient n'importe quel texte
+    - response.reprompt.outputSpeech.ssml == undefined # n'existe pas

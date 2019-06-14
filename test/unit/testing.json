@@ -1,0 +1,12 @@
+
+{
+    "handler": "../../lambda/index.js",
+    "trace": false,
+    "jest": {
+      "silent": false,
+      "coveragePathIgnorePatterns": [
+        "<rootDir>/lambda/data",
+        "<rootDir>/lambda/custom/.*cook.*"
+      ]
+    }
+  }

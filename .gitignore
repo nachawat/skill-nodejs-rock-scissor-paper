@@ -62,3 +62,6 @@ typings/
 
 # mac ds store
 .DS_Store
+
+# Bespoken test ouputs
+test_output/

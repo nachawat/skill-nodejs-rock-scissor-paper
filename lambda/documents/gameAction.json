@@ -48,7 +48,7 @@
                 "item": [
                     {
                         "type": "AlexaHeader",
-                        "when": "${viewport.shape != 'round'}",
+                        "when": "${@viewportProfile != @hubRoundSmall}",
                         "headerTitle": "${payload.templateData.header.title}",
                         "headerAttributionImage": "${payload.templateData.header.image}",
                         "headerBackgroundColor": "#30393c"
