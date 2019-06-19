@@ -41,6 +41,120 @@
             "lézard",
             "jeu"
           ]
+        },
+        "fr-CA": {
+          "name": "Pierre Feuille Ciseaux",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/64eb/34a2334708cf424ab833325518bdef27/APP_ICON?versionId=ADkBL1k72Q0nesqpt1F0hYujjA6F6Cmq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190610T132731Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=82af1a7b9b2410094151a3dc96d300f954c5b2cf7924b5e5e729d803966abb76",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9535/8ded0d0ca3c04fba8f03e02991503d0f/APP_ICON_LARGE?versionId=Aiuu0RnbGaEVSI3qS0kiGGFzEBtH4awV&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190610T132731Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=14df15283272f21bfbad717a4a488ab362d8830895a2f44d01b152a9a66e9e03",
+          "summary": "Jouez à Pierre Feuille Ciseaux Spock Lézard avec Alexa",
+          "description": "Vous êtes amateur Pierre Feuille Ciseaux ? Vous serez fan de cette version rendue célèbre par la série The Big Bang Theory! Cette Skill est optimisée pour les écrans.",
+          "examplePhrases": [
+            "Alexa, ouvre pierre feuille ciseaux",
+            "Alexa, demande à pierre feuille ciseaux un nouveau jeu"
+          ],
+          "keywords": [
+            "pierre",
+            "feuille",
+            "ciseaux",
+            "spock",
+            "lézard",
+            "jeu"
+          ]
+        },
+        "en-US": {
+          "name": "Rock Paper Scissors",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/64eb/34a2334708cf424ab833325518bdef27/APP_ICON?versionId=ADkBL1k72Q0nesqpt1F0hYujjA6F6Cmq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190610T132731Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=82af1a7b9b2410094151a3dc96d300f954c5b2cf7924b5e5e729d803966abb76",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9535/8ded0d0ca3c04fba8f03e02991503d0f/APP_ICON_LARGE?versionId=Aiuu0RnbGaEVSI3qS0kiGGFzEBtH4awV&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190610T132731Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=14df15283272f21bfbad717a4a488ab362d8830895a2f44d01b152a9a66e9e03",
+          "summary": "Play Rock Paper Scissors Spock Lizard with Alexa",
+          "description": "You love playing Rock Paper Scissors? We've added Spock and Lizard for your own pleasure ! Skill is optimized for screens.",
+          "examplePhrases": [
+            "Alexa, open rock paper scissors",
+            "Alexa, ask rock paper scissors to start a new game"
+          ],
+          "keywords": [
+            "rock",
+            "paper",
+            "scissor",
+            "spock",
+            "lizard",
+            "game"
+          ]
+        },
+        "en-GB": {
+          "name": "Rock Paper Scissors",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/64eb/34a2334708cf424ab833325518bdef27/APP_ICON?versionId=ADkBL1k72Q0nesqpt1F0hYujjA6F6Cmq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190610T132731Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=82af1a7b9b2410094151a3dc96d300f954c5b2cf7924b5e5e729d803966abb76",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9535/8ded0d0ca3c04fba8f03e02991503d0f/APP_ICON_LARGE?versionId=Aiuu0RnbGaEVSI3qS0kiGGFzEBtH4awV&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190610T132731Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=14df15283272f21bfbad717a4a488ab362d8830895a2f44d01b152a9a66e9e03",
+          "summary": "Play Rock Paper Scissors Spock Lizard with Alexa",
+          "description": "You love playing Rock Paper Scissors? We've added Spock and Lizard for your own pleasure ! Skill is optimized for screens.",
+          "examplePhrases": [
+            "Alexa, open rock paper scissors",
+            "Alexa, ask rock paper scissors to start a new game"
+          ],
+          "keywords": [
+            "rock",
+            "paper",
+            "scissor",
+            "spock",
+            "lizard",
+            "game"
+          ]
+        },
+        "en-CA": {
+          "name": "Rock Paper Scissors",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/64eb/34a2334708cf424ab833325518bdef27/APP_ICON?versionId=ADkBL1k72Q0nesqpt1F0hYujjA6F6Cmq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190610T132731Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=82af1a7b9b2410094151a3dc96d300f954c5b2cf7924b5e5e729d803966abb76",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9535/8ded0d0ca3c04fba8f03e02991503d0f/APP_ICON_LARGE?versionId=Aiuu0RnbGaEVSI3qS0kiGGFzEBtH4awV&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190610T132731Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=14df15283272f21bfbad717a4a488ab362d8830895a2f44d01b152a9a66e9e03",
+          "summary": "Play Rock Paper Scissors Spock Lizard with Alexa",
+          "description": "You love playing Rock Paper Scissors? We've added Spock and Lizard for your own pleasure ! Skill is optimized for screens.",
+          "examplePhrases": [
+            "Alexa, open rock paper scissors",
+            "Alexa, ask rock paper scissors to start a new game"
+          ],
+          "keywords": [
+            "rock",
+            "paper",
+            "scissor",
+            "spock",
+            "lizard",
+            "game"
+          ]
+        },
+        "en-IN": {
+          "name": "Rock Paper Scissors",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/64eb/34a2334708cf424ab833325518bdef27/APP_ICON?versionId=ADkBL1k72Q0nesqpt1F0hYujjA6F6Cmq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190610T132731Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=82af1a7b9b2410094151a3dc96d300f954c5b2cf7924b5e5e729d803966abb76",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9535/8ded0d0ca3c04fba8f03e02991503d0f/APP_ICON_LARGE?versionId=Aiuu0RnbGaEVSI3qS0kiGGFzEBtH4awV&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190610T132731Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=14df15283272f21bfbad717a4a488ab362d8830895a2f44d01b152a9a66e9e03",
+          "summary": "Play Rock Paper Scissors Spock Lizard with Alexa",
+          "description": "You love playing Rock Paper Scissors? We've added Spock and Lizard for your own pleasure ! Skill is optimized for screens.",
+          "examplePhrases": [
+            "Alexa, open rock paper scissors",
+            "Alexa, ask rock paper scissors to start a new game"
+          ],
+          "keywords": [
+            "rock",
+            "paper",
+            "scissor",
+            "spock",
+            "lizard",
+            "game"
+          ]
+        },
+        "en-AU": {
+          "name": "Rock Paper Scissors",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/64eb/34a2334708cf424ab833325518bdef27/APP_ICON?versionId=ADkBL1k72Q0nesqpt1F0hYujjA6F6Cmq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190610T132731Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=82af1a7b9b2410094151a3dc96d300f954c5b2cf7924b5e5e729d803966abb76",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9535/8ded0d0ca3c04fba8f03e02991503d0f/APP_ICON_LARGE?versionId=Aiuu0RnbGaEVSI3qS0kiGGFzEBtH4awV&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190610T132731Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=14df15283272f21bfbad717a4a488ab362d8830895a2f44d01b152a9a66e9e03",
+          "summary": "Play Rock Paper Scissors Spock Lizard with Alexa",
+          "description": "You love playing Rock Paper Scissors? We've added Spock and Lizard for your own pleasure ! Skill is optimized for screens.",
+          "examplePhrases": [
+            "Alexa, open rock paper scissors",
+            "Alexa, ask rock paper scissors to start a new game"
+          ],
+          "keywords": [
+            "rock",
+            "paper",
+            "scissor",
+            "spock",
+            "lizard",
+            "game"
+          ]
         }
       },
       "isAvailableWorldwide": true,

@@ -1,0 +1,85 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "rock paper scissor",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GameAction",
+          "slots": [
+            {
+              "name": "action",
+              "type": "ListOfActions"
+            }
+          ],
+          "samples": [
+            "what about {action}",
+            "I play {action}",
+            "{action}"
+          ]
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": [
+            "I want to play a new game",
+            "start a new game",
+            "new game",
+            "jouer"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "name": "ListOfActions",
+          "values": [
+            {
+              "id": "5",
+              "name": {
+                "value": "lizard"
+              }
+            },
+            {
+              "id": "4",
+              "name": {
+                "value": "spock"
+              }
+            },
+            {
+              "id": "3",
+              "name": {
+                "value": "scissors"
+              }
+            },
+            {
+              "id": "2",
+              "name": {
+                "value": "paper"
+              }
+            },
+            {
+              "id": "1",
+              "name": {
+                "value": "rock"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
